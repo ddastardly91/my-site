@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #222734;
+    color: #982FC0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FAB801;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    color: #FFF;
+}
+
+#header {
+    padding: 2% 13% 2% 13%;
+}
+
+#header .navbar-brand img {
+    width: 180px;
+}
+
+#header .nav-link {
+    color: #982FC0;
+    padding: 0 15px;
+}
+
+#header .braces {
+    color: #FFF;
+}
+
+#header .nav-link:hover {
+    color: #FFF;
+    transform: translateY(-8px);
+    transition: 1s;
+}
+
+.big-header {
+    padding: 35px 0 0 35px;
+    text-align: left;
+}
+
+.big-header span:hover {
+    color: #982FC0;
+    transition: 400ms;
+}
+
+.big-paragraph {
+    padding: 15px 0 0 35px;
+    text-align: left;
+}
+
+.quote {
+    color: #3FF48E;
+}
+
+.quote:hover {
+    color: #982FC0;
+    transition: 250ms;
+}
+
+.p-skills {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.code-image {
+    float: right;
+}
+
+.skill-icon-html:hover {
+    color: #F1602C;
+    transform: translateY(-10px);
+
+    transition: 400ms;
+}
+
+.skill-icon-css:hover {
+    color: #3098D8;
+    transform: translateY(-10px);
+    transition: 400ms;
+}
+
+.skill-icon-js:hover {
+    color: #FBDA15;
+    transform: translateY(-10px);
+    transition: 400ms;
+}
+
+#footer {
+    background-color: #FAB801;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1000px) {
+    .big-header {
+        text-align: center;
+    }
+
+    .big-paragraph {
+        text-align: center;
+    }
+
+    .code-image {
+        display: none;
+    }
+}
